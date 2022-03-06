@@ -1,0 +1,213 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+a,
+img,
+strong,
+sub,
+sup,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+figure,
+footer,
+header,
+menu,
+nav,
+output,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+header {
+  background-color: #b8221b;
+  color: rgb(217, 218, 206);
+  text-align: center;
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2em;
+}
+
+nav {
+  background-color: #443434;
+}
+
+nav ul {
+  text-align: center;
+  margin-right: 40px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+  color: #bb4d4d;
+  transition: 1s;
+}
+
+nav ul span {
+  color: white;
+  font-weight: bolder;
+}
+
+main {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-image: linear-gradient(
+      rgba(4, 4, 27, 0.5),
+      rgba(121, 121, 112, 0.5)
+    ),
+    url("../imagens/tamarutaca2.jpeg");
+}
+
+.presentation {
+  text-align: center;
+}
+
+.main-title {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+table {
+  display: inline-block;
+  color: white;
+  border: 1px solid white;
+  margin-top: 120px;
+  padding: 10px;
+  text-align: left;
+}
+
+.main-title h2 {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3em;
+  margin: 20px 0px;
+  max-width: 250px;
+  line-height: 1.4;
+}
+
+.main-title p {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 100px;
+  max-width: 170px;
+  text-align: right;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f0f0;
+}
+
+.title-article {
+  color: #443434;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 2em;
+  background-color: #e4dede;
+
+  padding: 30px;
+}
+
+article h3 {
+  font-size: 1.5em;
+  margin: 20px;
+  color: #b8221b;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.article-1,
+.article-2 {
+  text-align: center;
+  margin-left: 150px;
+  margin-bottom: 40px;
+}
+
+.article-1 img,
+.article-2 img {
+  max-width: 150px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  height: 80px;
+  /* height: 80px; */
+}
+
+.article-1 p,
+.article-2 p {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 1.4;
+  max-width: 380px;
+  text-align: justify;
+}
+
+aside {
+  background-color: #443434;
+  text-align: center;
+  padding: 20px;
+}
+
+aside a {
+  color: white;
+  margin-right: 50px;
+  padding: 15px 10px;
+  font-size: 1.4em;
+  text-decoration: none;
+}
+
+aside a:hover {
+  color: #ad8d8d;
+  transition: 1s;
+}
+
+aside img {
+  width: 30px;
+}
+
+footer {
+  background-color: #b8221b;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  padding: 30px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+}
