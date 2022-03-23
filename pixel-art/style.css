@@ -1,0 +1,160 @@
+/* Parte do css reset retirado de https://www.alura.com.br/artigos/o-que-e-reset-css?gclid=CjwKCAjwxOCRBhA8EiwA0X8hi167xY-T14WxDV6FDC3h20-2LEj5BYH2uHXcdim7OFxLuHv3m6QgMBoCegQQAvD_BwE */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+body {
+  text-align: center;
+}
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 20px 0;
+}
+
+.color-1 {
+  background-color: black;
+}
+.color-2 {
+  background-color: red;
+}
+.color-3 {
+  background-color: blue;
+}
+.color-4 {
+  background-color: green;
+}
+/* referencia que usei para conhecer o display: table-cell https://projects.raspberrypi.org/pt-BR/projects/pixel-art/2 */
+
+.pixel {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  display: table-cell;
+}
+
+.ulPixelBox {
+  display: table-row;
+}
+
+#pixel-board {
+  display: block;
+  margin: 0 auto;
+}
+
+#clear-board {
+  margin-top: 20px;
+  background-color: rgb(143, 142, 142);
+  color: white;
+  padding: 5px 20px;
+  border: none;
+}
+
+.input {
+  margin-top: 20px;
+}
+.container {
+  display: flex;
+}
+#pixel-board {
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
