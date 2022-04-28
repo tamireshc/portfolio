@@ -7,4 +7,5 @@ https://tamireshc.github.io/trybe/todo-list/<br>
 https://tamireshc.github.io/trybe/pixel-art/<br>
 https://tamireshc.github.io/trybe/color-guest/<br>
 https://tamireshc.github.io/trybe/meme-generator/<br>
-https://tamireshc.github.io/trybe/trybewarts/
+https://tamireshc.github.io/trybe/trybewarts/<br>
+https://tamireshc.github.io/trybe/shopping-cart/
