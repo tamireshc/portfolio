@@ -10,4 +10,5 @@ https://tamireshc.github.io/portfolio/pixel-art/<br>
 https://tamireshc.github.io/portfolio/color-guest/<br>
 https://tamireshc.github.io/portfolio/meme-generator/<br>
 https://tamireshc.github.io/portfolio/trybewarts/<br>
-https://tamireshc.github.io/portfolio/shopping-cart/
+https://tamireshc.github.io/portfolio/shopping-cart/<br>
+https://tamireshc.github.io/portfolio/shopping-cart2/
