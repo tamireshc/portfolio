@@ -3,6 +3,7 @@ const sectionItensCart = document.querySelector('.cart__items');
 const liItensCard = document.getElementsByClassName('cart__item');
 const spanTotal = document.querySelector('.total-price');
 const divCart = document.getElementsByClassName('div-cart');
+const container = document.querySelector('.container');
 
 function createProductImageElement(imageSource) {
   const img = document.createElement('img');
@@ -91,8 +92,13 @@ const pLoading = document.createElement('p');
 // https: developer.mozilla.org/pt-BR/docs/Web/API/Window/DOMContentLoaded_event
 
 document.addEventListener('DOMContentLoaded', function () {
-  pLoading.innerText = 'Loading...';
+  container.style.display = "none"
+  pLoading.innerHTML = '<img src="../img/Rolling-1s-200px.gif" alt="" srcset=""></img>'
   pLoading.className = 'loading';
+   pLoading.style.height = '100vh';
+  pLoading.style.backgroundColor = '#F1F2F3';
+  
+  
   sectionForLoading.appendChild(pLoading);
 });
 
@@ -147,6 +153,8 @@ const getProduct = async () => {
   );
   // Removendo o loading após o carregamento dos itens na página
   pLoading.remove();
+  container.style.display = "flex"
+
 };
 
 getProduct();
