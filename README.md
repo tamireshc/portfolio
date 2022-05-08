@@ -1,6 +1,6 @@
 # Portifólio :cloud:
 
-Este repositório foi utiliado para armazenar as páginas dos projetos desenvolvidos durante o curso da Trybe.
+Este repositório foi utiliado para armazenar as páginas dos projetos desenvolvidos em JavaScript durante o curso da Trybe.
 
 https://tamireshc.github.io/portfolio/stomatopoda/ <br>
 https://tamireshc.github.io/portfolio/portifolio/<br>
