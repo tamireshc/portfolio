@@ -1,9 +1,9 @@
 # Portifólio :cloud:
 
-Este repositório foi utiliado para armazenar as páginas dos projetos desenvolvidos em JavaScript durante o curso da _[Trybe](https://www.betrybe.com/)_.
+Este repositório foi utilizado para armazenar as páginas dos projetos desenvolvidos em JavaScript durante o curso da _[Trybe](https://www.betrybe.com/)_.
 Os códigos são autorais.<br>
 
-1. **Stomatopoda** - Página criada no início do curso para demostrar as carasterísticas do crustáceo Stomatopoda:
+1. **Stomatopoda** - Página criada no início do curso para demonstrar as carasterísticas do crustáceo Stomatopoda:
    https://tamireshc.github.io/portfolio/stomatopoda/ <br>
    
 2. **Portifólio** - Páginas criadas para desenvolver um portifólio pessoal:<br>
@@ -13,7 +13,7 @@ Os códigos são autorais.<br>
 3. **To-do List** - Aplicação de to-do-List, as informações são salvas em local storage, sendo possível manipular os ítens da lista:<br>
     https://tamireshc.github.io/portfolio/todo-list/<br>
     
-4. **Pixel-art** - Página que pertimite a criaçao de pixel art com cores aleátoria e a escolha do tamanho da grade de pixels:   
+4. **Pixel-art** - Página que permite a criaçao de pixel art com cores aleátoria e a escolha do tamanho da grade de pixels:   
    https://tamireshc.github.io/portfolio/pixel-art/<br>
    
 5. **Color Guest** - Jogo de advinhação de cores aleátorias RGB:<br>
